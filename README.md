@@ -17,11 +17,6 @@ Before running this script, ensure you have the following installed on your Unix
 * *Bash Shell* (Standard on most Linux distros)
 * *Nmap* (Install via sudo apt install nmap)
 
-## Grant Execution Permissions
-By default, Linux restricts new scripts from running. Give the script execution rights with:
-
-chmod +x scan.sh
-
 ## 🛠️ Installation & Setup
 
 Clone this repository to your local machine and navigate into the project directory:
@@ -29,3 +24,11 @@ Clone this repository to your local machine and navigate into the project direct
 ```bash
 git clone https://github.com/uv2s8370/Scanning-with-Nmap
 cd Scanning-with-Nmap
+```
+
+## Grant Execution Permissions
+By default, Linux restricts new scripts from running. Give the script execution rights with:
+
+```bash
+chmod +x scan.sh
+```
